@@ -1,6 +1,6 @@
 const CONFIG_HEXO = {
   HOME_BANNER_ENABLE: true,
-  HOME_BANNER_GREETINGS: ['Hi，我是一个程序员', 'Hi，我是一个打工人', 'Hi，我是一个干饭人', '欢迎来到我的博客🎉'], // 首页大图标语文字
+  HOME_BANNER_GREETINGS: [ 'Welcome to my blog!',  'I am a Growth Hacker, a Techthusiast, and an Outlier', '路漫漫其修遠兮，吾將上下而求索','The road ahead will be long. Our climb will be steep.','不鳴則已，一鳴驚人'], // 首頁大圖標語文字
 
   HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
 
@@ -19,7 +19,7 @@ const CONFIG_HEXO = {
   ARTICLE_RECOMMEND: true, // 文章关联推荐
 
   WIDGET_LATEST_POSTS: true, // 显示最新文章卡
-  WIDGET_ANALYTICS: false, // 显示统计卡
+  WIDGET_ANALYTICS: true, // 显示统计卡
   WIDGET_TO_TOP: true,
   WIDGET_TO_COMMENT: true, // 跳到评论区
   WIDGET_DARK_MODE: true, // 夜间模式
