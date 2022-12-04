@@ -6,8 +6,9 @@ const BLOG = {
   KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
   process.env.NOTION_PAGE_ID || 'e6f83f49510b4716b3e77eff252130dd', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5  https://jasonthemonash.notion.site/e6f83f49510b4716b3e77eff252130dd?v=ab9f5db0efce4d26a346d82b9cabbcd8
-  NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || 'ab9f5db0efce4d26a346d82b9cabbcd8', // Useful if you prefer not to make your database public
-  DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
+
+  NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
+  DEBUG: process.env.NEXT_PUBLIC_DEBUG || true, // 是否显示调试按钮
 
   // 一个小插件展示你的facebook fan page~ @see https://tw.andys.pro/article/add-facebook-fanpage-notionnext
   FACEBOOK_PAGE_TITLE:
